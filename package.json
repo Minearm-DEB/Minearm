@@ -1,0 +1,63 @@
+{
+  "name": "minearm-website",
+  "description": "Welcome to Minearm & Website.",
+  "version": "0.1",
+  "homepage": "https://github.com/Minearm-RPM/minearm",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "new": "ts-node ./minearm.ts new",
+    "abbr": "ts-node ./minearm.ts abbr",
+    "newpage": "ts-node ./minearm.ts newPage",
+    "help": "ts-node ./minearm.ts help",
+    "pu": "ts-node ./pu.ts"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "^6.0.1",
+    "@astrojs/mdx": "^4.0.2",
+    "@astrojs/rss": "^4.0.10",
+    "@duannx/vue-client-only": "^1.0.3",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@iconify-json/tabler": "^1.2.8",
+    "astro": "^5.0.5",
+    "astro-i18next": "^1.0.0-beta.21",
+    "astro-icon": "^1.1.2",
+    "fuse.js": "^6.6.2",
+    "glob": "^10.3.3",
+    "hastscript": "^7.2.0",
+    "html-loader": "^0.5.5",
+    "markdown-loader": "^8.0.0",
+    "marked": "^15.0.0",
+    "mdast-util-to-string": "^4.0.0",
+    "pnpm": "^9.14.2",
+    "reading-time": "^1.5.0",
+    "rehype-katex": "7.0.1",
+    "rehype-mathjax": "6.0.0",
+    "remark-directive": "3.0.0",
+    "remark-gfm": "4.0.0",
+    "remark-math": "6.0.0",
+    "showdown": "^2.1.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/vue": "^5.0.2",
+    "@types/yargs": "^17.0.24",
+    "sass": "1.70.0",
+    "scss": "^0.2.4",
+    "ts-node": "10.9.2",
+    "vue": "^3.5.13"
+  },
+  "keywords": [
+    "astro-component",
+    "withastro"
+  ],
+  "main": "index.js",
+  "author": ""
+}
